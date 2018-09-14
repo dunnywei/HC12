@@ -1,11 +1,17 @@
+https://www.youtube.com/watch?v=wOZbpEHq_sI&list=PL-k1KoUHjKI2u4ZfzewZy_UZ8MZrg1FDq
 -Registers
   -Accumulator: 
   -  D (16 bits) (0:53)
    /    \
   A       B
 15 to 8|7 to 0  bits  (0:53)
-  - X (15 to 0)
-  - Y (15 to 0)
-  -SP (15 to 0)
+  - X (15 to 0) index register
+  - Y (15 to 0) index register
+  -SP (15 to 0) stack pointer
+    -ponits to the top of the stack (2:07)
   -PC (15 to 0)
- -
+    -points to the next intruction to be executed (2:24)
+ -Flag register (Like CPSR in ARM_
+  -SXHINZVC
+    -N for negative flag (2:53)
+    -
