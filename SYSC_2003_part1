@@ -1,4 +1,6 @@
 https://www.youtube.com/watch?v=wOZbpEHq_sI&list=PL-k1KoUHjKI2u4ZfzewZy_UZ8MZrg1FDq
+ ->Intel, ARM as little endian
+ ->Freescale,PoerPC=Big endian
 -Registers
   -Accumulator: 
   -  D (16 bits) (0:53)
@@ -11,7 +13,13 @@ https://www.youtube.com/watch?v=wOZbpEHq_sI&list=PL-k1KoUHjKI2u4ZfzewZy_UZ8MZrg1
     -ponits to the top of the stack (2:07)
   -PC (15 to 0)
     -points to the next intruction to be executed (2:24)
- -Flag register (Like CPSR in ARM_
+ -Flag register (Like CPSR in ARM uP)
   -SXHINZVC
     -N for negative flag (2:53)
-    -
+    -X for zero flag(3:19)
+    -O for overflow flag (3:20)-like sth out of its range (3:29)
+      -It returns more it can calculate (3:32) (??) double check it
+      -problem/trouble
+    -C adding two numbers and still have a carry flag (3:50)
+ ->memory is in hex (4:53)
+n
