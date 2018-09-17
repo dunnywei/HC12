@@ -27,8 +27,15 @@ https://www.youtube.com/watch?v=wOZbpEHq_sI&list=PL-k1KoUHjKI2u4ZfzewZy_UZ8MZrg1
    -Opcode-the operation that will
    -3 types of opcode
       -1)data transfer (memory and I/O)
-        -memory to register
+        -memory to register 
         -register to I/O (6:31)
       -2)data manipulation
+         -arithmatic (AND/OR)
       -3)control flow
+        -order of instruction read, branch (6:51)
    -Order->opcode operand (5:65)
+->1st instruction
+  -LDAA for loading from memory to registe A (7:25)
+  -LDAB for laoding from memory to register B(7:49)
+  -LDD for loading from memory to register D(7:56)
+  -
