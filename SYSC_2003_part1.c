@@ -46,5 +46,20 @@ LOAA #7 so a=0x7 in hex decimal (9:25)
 ->eg
 LDAB #$7 so a=7d be aware that with $7 means that there is no conversion from decmail to hex (10:12)
 ->eg
-LDAA $07 so we will look at memory location at 0x0007 (10:39)
-   
+LDAA $07 so we will look at memory location at 0x0007 (10:39) and grat its content then put it into A(10:45)
+->want to load something from memory location 0x0800 and store (10:57) insdie A again (10:58)
+eg
+LDAA $800
+->putting a data from constant  and put it into a register  =immediate addressing (11:36)
+eg
+LOAA #7
+LDAB #$7 
+->putting a data from memory and put it into a register=direct addressing(12:06) 
+ eg
+ LDAA $07
+ ->It is an extend direct addressing since 800 is actaully a 16 bit number(13:01)
+ LDAA $800 
+    -link=https://paws.kettering.edu/~jkwon/teaching/10-t1/ce-320/lecture/04-Addressing%20Modes.pdf
+ 
+ 
+
