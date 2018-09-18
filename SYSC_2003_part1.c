@@ -57,9 +57,11 @@ LDAB #$7
 ->putting a data from memory and put it into a register=direct addressing(12:06) 
  eg
  LDAA $07
- ->It is an extend direct addressing since 800 is actaully a 16 bit number(13:01)
+ ->It is an extend addressing (EXT) since 800 is actaully a 16 bit number(13:01)
  LDAA $800 
     -link=https://paws.kettering.edu/~jkwon/teaching/10-t1/ce-320/lecture/04-Addressing%20Modes.pdf
- 
- 
+    -In terms of machine code for EXT->08 hh x
+     eg 
+     B6 08 00 where 08 is the high adress(15:06)
+->
 
