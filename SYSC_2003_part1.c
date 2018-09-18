@@ -38,4 +38,13 @@ https://www.youtube.com/watch?v=wOZbpEHq_sI&list=PL-k1KoUHjKI2u4ZfzewZy_UZ8MZrg1
   -LDAA for loading from memory to registe A (7:25)
   -LDAB for laoding from memory to register B(7:49)
   -LDD for loading from memory to register D(7:56)
-  -
+  -STAB as a store function for moving what is inside B into the memory (8:03)
+  -STAA as a store function for moving what is inside A into the memory (8:21)
+->eg
+LOAA #7 so a=0x7 in hex decimal (9:25)
+   -4 bit
+->eg
+LDAB #$7 so a=7d be aware that with $7 means that there is no conversion from decmail to hex (10:12)
+->eg
+LDAA $07 so we will look at memory location at 0x0007 (10:39)
+   
