@@ -32,12 +32,15 @@ Org $800
 
 Org $1000
    LDAA  xx
-   LADDA yy
+   ADDA  yy
    STAA $802
 swi
+
+.end
 
 -memory map
 $800  05
 $801  0A
 %802  0F
-   -(3:38)
+   -(3:38) every program needs to end with swi is the software interrupt (5:24)
+   -we also need to add ".end" as well (5:32)
