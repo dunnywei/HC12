@@ -8,7 +8,7 @@ org $800
    
    
    
-   
+   memory map
    0x800 
    0x801
    0x802
@@ -20,4 +20,24 @@ org $800
    eg
    org $10
    C db 5
+   
+   
+   -memory map
+   0x0010  05
    -(2:38) starts at memory location 10 (2:38)
+->eg
+Org $800
+ xx db 5
+ yy db 10
+
+Org $1000
+   LDAA  xx
+   LADDA yy
+   STAA $802
+swi
+
+-memory map
+$800  05
+$801  0A
+%802  0F
+   -(3:38)
