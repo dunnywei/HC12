@@ -1,11 +1,16 @@
 https://www.youtube.com/watch?v=nKD5UFDiBtk&index=3&list=PL-k1KoUHjKI2u4ZfzewZy_UZ8MZrg1FDq
 ->Arrays
 eg.
-Iunno DB/DW 10
+Iunno DB/DW 5
+Hello rmb/rmw 14 
   -(0:03)
   -DB gives a sapce of 1 byte (0:39)
   -DW gives a sapce of 2 bytes(0:43) 
-  
+->What will be the difference between rmb/rmw vs db/dw?
+   -(0:58)
+  -In DB/DW it actually gives a value as 5 (1:00)
+  -In rmb/rm, you reserve a byte/word (1:04)
+  -so in "Hello rmb/rmw 14", it will allocate 14 bytes (1:26)
 ->
 ->
 ->
