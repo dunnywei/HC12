@@ -1,6 +1,11 @@
 https://www.youtube.com/watch?v=nKD5UFDiBtk&index=3&list=PL-k1KoUHjKI2u4ZfzewZy_UZ8MZrg1FDq
 ->Arrays
+eg.
+Iunno DB/DW 10
   -(0:03)
+  -DB gives a sapce of 1 byte (0:39)
+  -DW gives a sapce of 2 bytes(0:43) 
+  
 ->
 ->
 ->
