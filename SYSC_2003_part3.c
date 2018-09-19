@@ -17,7 +17,13 @@ Array fill $25,100
   -You can use the command as "fill" to fill the value (1:49)
   -The 2nd value indicatges the number of bytes you want to fill (2:03). it is 100 bytes. (2:20)
   -The 1st value  is filled with 25d (2:06)
-->Multiplication and divisoin (3:00)
+->Multiplication and division(3:00)
+  -EMUL for unsigned 16 x unsigned 16 muliplication (3:90). DxY=Y:D
+  eg,
+  LDAA #2
+  LDAB #7
+  MUL
+  -so I will get 14d in A:B (3:46)
 ->
 ->
 ->
