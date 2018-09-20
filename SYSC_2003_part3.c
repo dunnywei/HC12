@@ -23,7 +23,9 @@ Array fill $25,100
   LDAA #2
   LDAB #7
   MUL
-  -so I will get 14d in A:B (3:46)
+  -so I will get 14d as 0xE in B (3:46) register (3:55)
+  -
+  -
 ->
 ->
 ->
